@@ -94,3 +94,6 @@ markdown_extensions:
 # Page Tree
 nav:
   - Intro : index.md
+  - Cavatica data download:
+    - Accessing the data: Cavatica/Overview.md
+    - Downloading the data:
