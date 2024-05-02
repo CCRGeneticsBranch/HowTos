@@ -36,7 +36,7 @@ for subfolder in folder_subfolders:
                 print(&quot;File Metadata: &quot;, file.metadata)
         else:
             print(f&quot;Skipping {subfolder.name} because it&#39;s not a folder.&quot;)
-</code></pre></div> <h1 id=downloading-files>Downloading files:<a class=headerlink href=#downloading-files title="Permanent link">&para;</a></h1> <p>Get a list of file_ids from the above step. </p> <div class=highlight><pre><span></span><code>file_id = sys.argv[1]
+</code></pre></div> <p>Get a list of file_ids from the above step. </p> <div class=highlight><pre><span></span><code>file_id = sys.argv[1]
 file_obj = api.files.get(file_id)
 
 original_name = file_obj.name
