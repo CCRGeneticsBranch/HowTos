@@ -69,8 +69,6 @@ for subfolder in folder_subfolders:
 ```
 
 
-#Downloading files:
-
 Get a list of file_ids from the above step. 
 
 ```
