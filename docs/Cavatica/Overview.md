@@ -32,18 +32,20 @@ import requests
 import os
 import sys
 
-# This step lists out all the projects you have access to.
+# Initialize the Seven Bridges API client.
 api = Api(url='https://cavatica-api.sbgenomics.com/v2', token='input-your-token-here',error_handlers=[rate_limit_sleeper, maintenance_sleeper])
+
+# List all the projects you have access to.
 for project in api.projects.query().all():
     print ("ID: ", project.id, " Name:", project.name)
 
-#To view subfolders of a specific project
+#View subfolders of a specific project
 #project name should be provided in this format - user/projectname example: gangalapudiv2/test
 root_folder = api.files.query(project='Enter-your-project-name-here') 
 for folder in root_folder:
-    print(folder.id, folder.name) # This will print out folder id and folder name for all the subfolders in this project
+    print(folder.id, folder.name) # Prints folder id and folder name for all the subfolders in this project
 
-#To download meta data information for all the files within a folder/subfolder.
+#View meta data information for all the files within a folder/subfolder.
 total_file_size = 0
 num_files = 0
 #using .all() to get list of all files in the subfolders.
@@ -63,6 +65,23 @@ for subfolder in folder_subfolders:
             print(f"Skipping {subfolder.name} because it's not a folder.")
 
 ```
+
+#Downloading files:
+
+Get a list of file_ids from the above step. 
+
+```
+file_id = sys.argv[1]
+file_obj = api.files.get(file_id)
+
+original_name = file_obj.name
+file_obj.download(path=f'./pathtoyourfolder/{original_name}')
+
+print("File downloaded successfully!")
+```
+
+If you have any questions or would like to provide valuaable additions to thhis page plase email [Vineela Gangalapudi](mailto:vineela.gangalapudi@nih.gov).
+
 
 
 
