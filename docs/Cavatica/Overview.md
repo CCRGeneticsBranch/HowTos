@@ -1,5 +1,6 @@
 To access Cavatica, log in using your NIH account and PIV card. This will display the projects you have access to on Cavatica.
 
+#Downloading small number of files with small sizes:
 The easiest way to download files from Cavatica is by following these steps:
 
 1. Log in to Cavatica using your NIH account and PIV card.
@@ -9,7 +10,8 @@ The easiest way to download files from Cavatica is by following these steps:
 
 ![Image title](../images/Cavatica_web_download.png)
 
-This method is particularly useful when dealing with a small number of files or files of small sizes.
+
+#Downloading large files:
 
 For handling large numbers of files and files with substantial sizes such as FASTQs, VCFs, or BAM files, it's recommended to utilize the Seven Bridges python API.
 
@@ -65,6 +67,7 @@ for subfolder in folder_subfolders:
             print(f"Skipping {subfolder.name} because it's not a folder.")
 
 ```
+
 
 #Downloading files:
 
