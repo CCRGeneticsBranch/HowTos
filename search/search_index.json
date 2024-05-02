@@ -1,1 +1,1 @@
-{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Intro","text":"<p>This space includes all the Tutorials and How Tos relevent to khanlab</p>"}]}
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Intro","text":"<p>This page is built by following the HowTos tutorial available at CCBR  You will find tutorials, how-tos and documentation for khanlab relevant tasks.</p>"}]}
