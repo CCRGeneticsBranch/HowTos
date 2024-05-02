@@ -81,7 +81,7 @@ file_obj.download(path=f'./pathtoyourfolder/{original_name}')
 print("File downloaded successfully!")
 ```
 
-If you have any questions or would like to provide valuaable additions to thhis page plase email [Vineela Gangalapudi](mailto:vineela.gangalapudi@nih.gov).
+If you have any questions or would like to provide valuable additions to this page please email [Vineela Gangalapudi](mailto:vineela.gangalapudi@nih.gov).
 
 
 
