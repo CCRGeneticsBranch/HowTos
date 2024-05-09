@@ -65,7 +65,7 @@ bedtools intersect -a capture_kit_bed_file /
                    -b gencode-exon-hgnc-biomart-table-khanlab-bed.csv /
                    -wa -wb | cut -f1,2,3,7,8,9| bedtools sort |uniq| /
                    -mergeBed -i - -c 4,5,6 -o distinct,collapse,collapse | /
-                   awk '{OFS="\t"}{print $1,$2,$3,$4"___"$5,$6}' > khanlab_pipeline_accepted_bed file.
+                   awk '{OFS="\t"}{print $1,$2,$3,$4"___"$5,$6}' > khanlab_pipeline_accepted_bed_file.
 ```
 
 
