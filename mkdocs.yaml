@@ -96,3 +96,5 @@ nav:
   - Intro : index.md
   - Cavatica data download:
     - Accessing the data: Cavatica/Overview.md
+  - Target bed file for khanlab pipeline: bedfile_formatting.md
+  
