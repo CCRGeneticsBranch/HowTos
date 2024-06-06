@@ -97,5 +97,5 @@ nav:
   - Cavatica data download:
     - Accessing the data: Cavatica/Overview.md
   - Target bed file for khanlab pipeline: bedfile_formatting.md
-  - Download viral sequnces from GDC: Viralsequences_download.md
+  - Download viral decoys from GDC: Viralsequences_download.md
   

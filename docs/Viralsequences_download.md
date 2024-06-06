@@ -1,10 +1,11 @@
 #Overview
 
-[GDC](https://portal.gdc.cancer.gov/) suggests adding viral sequences and decoys to human genome when building the references. There are about 200 viral sequences listed [here](https://gdc.cancer.gov/system/files/public/file/GRCh83.d1.vd1_virus_decoy.txt). Downloading these fastq sequences one by one can be quite tedious and prone to errors. 
+[GDC](https://portal.gdc.cancer.gov/) suggests adding viral sequences and decoys to human genome when building a reference. There are about 200 viral sequences listed [here](https://gdc.cancer.gov/system/files/public/file/GRCh83.d1.vd1_virus_decoy.txt). Downloading these fasta sequences one by one can be quite tedious and prone to errors. 
 
 ##Download steps
 
 We put together a python script that will download all the viral sequences to a single fasta file.
+
 1. Copy all the lines from [here](https://gdc.cancer.gov/system/files/public/file/GRCh83.d1.vd1_virus_decoy.txt) and save it to a text file.(GRCh83.d1.vd1_virus_decoy.txt)
 2. Make sure biopython library is installed in your env. If using biowulf, you can do this in a conda env
 ```
