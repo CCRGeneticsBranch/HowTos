@@ -98,4 +98,4 @@ nav:
   - Target bed file for khanlab pipeline: bedfile_formatting.md
   - Download viral decoys from GDC: Viralsequences_download.md
   - AWS docs:
-      - Adding user on IAM:AWS/IAM_user.md
+      - Adding user on IAM: AWS/IAM_user.md
