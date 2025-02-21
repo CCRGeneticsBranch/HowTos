@@ -99,3 +99,5 @@ nav:
   - Download viral decoys from GDC: Viralsequences_download.md
   - AWS docs:
       - Adding user on IAM: AWS/IAM_user.md
+  - Gen3 docs:
+      - Gen3 data download: Gen3/Gen3_data_download.md
