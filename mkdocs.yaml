@@ -100,4 +100,6 @@ nav:
   - AWS docs:
       - Adding user on IAM: AWS/IAM_user.md
   - Gen3 docs:
-      - Gen3 data download: Gen3/Gen3_data_download.md
+      - Gen3 data download: Gen3_data_download.md
+  - Transferring Data from HPC-DME to Biowulf with Globus: HPC-DME_to_Biowulf_globus.md
+
