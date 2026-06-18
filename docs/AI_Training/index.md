@@ -33,15 +33,19 @@ We'll get your environment set up end to end and finish with a hands-on exercise
 
 ## Session materials
 
-The slide deck and the VS Code setup guide for Session 1:
+**Session 1 slides**
 
 [View slides](AI_Training_Session1_v2.pdf){ .md-button .md-button--primary target="_blank" }
 [Download (PDF)](AI_Training_Session1_v2.pdf){ .md-button download="AI_Training_Session1_v2.pdf" }
 
-**VS Code setup guide** — step-by-step install for Windows &amp; Mac.
+**VS Code setup guide**
 
 [View guide](VS_Code_Setup_Guide.pdf){ .md-button .md-button--primary target="_blank" }
 [Download (PDF)](VS_Code_Setup_Guide.pdf){ .md-button download="VS_Code_Setup_Guide.pdf" }
+
+**Test dataset**
+
+[Download (XLSX)](test_dataset.xlsx){ .md-button download="test_dataset.xlsx" }
 
 
 
