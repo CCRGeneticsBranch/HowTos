@@ -102,4 +102,5 @@ nav:
   - Gen3 docs:
       - Gen3 data download: Gen3_data_download.md
   - DME → Biowulf (Globus): HPC-DME_to_Biowulf_globus.md
+  - AI Tools & Best Practices: AI_Training/index.md
 
