@@ -40,8 +40,8 @@ We'll get your environment set up end to end and finish with a hands-on exercise
 
 **VS Code setup guide**
 
-[View guide](VS_Code_Setup_Guide.pdf){ .md-button .md-button--primary target="_blank" }
-[Download (PDF)](VS_Code_Setup_Guide.pdf){ .md-button download="VS_Code_Setup_Guide.pdf" }
+[View guide](VS_Code_setup_Guide.pdf){ .md-button .md-button--primary target="_blank" }
+[Download (PDF)](VS_Code_setup_Guide.pdf){ .md-button download="VS_Code_Setup_Guide.pdf" }
 
 **Test dataset**
 
